@@ -2,7 +2,7 @@ import mysql.connector as con
 dataBase=con.connect(
     host="127.0.0.1",
     user="root",
-    password="wcchj85rxu"
+    password=""
 )
 mycursor = dataBase.cursor()
 
